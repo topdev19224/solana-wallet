@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sass {
+  @apply bg-black text-white p-2 text-5xl rounded-2xl cursor-pointer;
+  &:hover {
+    @apply bg-white text-black;
+  }
+}
